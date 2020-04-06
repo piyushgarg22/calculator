@@ -1,0 +1,53 @@
+#root{
+    background: orange;
+}
+
+.calci-outer{
+    border: 1px solid #000;
+    min-height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: lightgray;
+}
+
+button {
+    overflow: visible;
+    border: 1px solid #fff;
+    background: black;
+    color: #fff;
+    padding: 15px 10px;
+}
+
+.container{
+    height: 100vh;
+}
+.row{
+    height: 100%;
+}
+
+.screenpad{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    height: 100px;
+    flex-direction: column;
+}
+
+.currentData{
+    height: 70%;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.previousData{
+    height: 30%;
+}
+
+button:hover {
+    background: blue;
+}
+
